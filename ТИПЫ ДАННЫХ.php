@@ -1,3 +1,4 @@
+<?php 
 ТИПЫ ДАННЫХ
 • Логический или Булев
 • Целые числа
@@ -58,7 +59,7 @@ NULL
 
 
 GETTYPE ДЛЯ ОПРЕДЕЛЕНИЯ ТИПА
-<?php 
+
 echo gettype(true); // boolean
 echo gettype(12); //integer
 echo gettype(3.14); //double
@@ -66,7 +67,7 @@ echo gettype('Netology'); //string
 echo gettype([1, 2, 4]); //array
 echo gettype(new stdClass());//object
 echo gettype(null); //NULL
-?>
+
 
 
 ПРЕОБРАЗОВАНИЕ ТИПОВ
@@ -74,3 +75,4 @@ echo gettype(null); //NULL
 (bool) 12; // true
 (int) '12'; // 12
 (string) 12; // '12
+?>
